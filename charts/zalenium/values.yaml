@@ -238,6 +238,6 @@ nodeSelector:
 ## hostAliases allow the modification of the hosts file inside a container
 ##
 hostAliases:
-- ip: "10.8.2.16"
-  hostnames:
-  - "tiki.vn"
+  - hostnames:
+    - tiki.vn
+    ip: 10.8.2.16
