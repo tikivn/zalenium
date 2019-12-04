@@ -239,5 +239,5 @@ nodeSelector:
 ##
 hostAliases:
   - hostnames:
-    - tiki.vn
-    ip: 10.8.2.16
+    - "tiki.vn"
+    ip: "10.8.2.16"
