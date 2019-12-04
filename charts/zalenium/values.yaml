@@ -237,7 +237,7 @@ nodeSelector:
 #         topologyKey: "kubernetes.io/hostname"
 ## hostAliases allow the modification of the hosts file inside a container
 ##
-hostAliases: []
+hostAliases:
 - ip: "10.8.2.16"
   hostnames:
   - "tiki.vn"
