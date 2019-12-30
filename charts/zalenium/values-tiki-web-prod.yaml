@@ -171,7 +171,7 @@ ingress:
   enabled: true
   tls: false
   # secretName: my-tls-cert # only needed if tls above is true
-  hostname: zalenium-2.tiki.services
+  hostname: zalenium-3.tiki.services
   # If your ingress host name is shared with multiple
   # applications, Enter a path starting with / (eg. /zalenium)
   # If your ingress host name is only for Zalenium,
@@ -238,6 +238,6 @@ nodeSelector:
 ## hostAliases allow the modification of the hosts file inside a container
 ##
 hostAliases:
-  - hostnames:
-    - "tiki.vn"
-    ip: "10.8.2.16"
+- ip: "10.8.2.16"
+  hostnames:
+  - "tiki.vn"
